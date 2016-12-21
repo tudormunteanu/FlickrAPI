@@ -14,6 +14,13 @@
 		EF0C20411E09E63700E30A8B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF0C203F1E09E63700E30A8B /* LaunchScreen.storyboard */; };
 		EF0C204C1E09E63700E30A8B /* Photo_Search_ExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF0C204B1E09E63700E30A8B /* Photo_Search_ExampleTests.swift */; };
 		EF0C20571E09E63700E30A8B /* Photo_Search_ExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF0C20561E09E63700E30A8B /* Photo_Search_ExampleUITests.swift */; };
+		EF0C20721E09E6B300E30A8B /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EF0C20661E09E6B300E30A8B /* AFHTTPSessionManager.m */; };
+		EF0C20731E09E6B300E30A8B /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EF0C20691E09E6B300E30A8B /* AFNetworkReachabilityManager.m */; };
+		EF0C20741E09E6B300E30A8B /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = EF0C206B1E09E6B300E30A8B /* AFSecurityPolicy.m */; };
+		EF0C20751E09E6B300E30A8B /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = EF0C206D1E09E6B300E30A8B /* AFURLRequestSerialization.m */; };
+		EF0C20761E09E6B300E30A8B /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = EF0C206F1E09E6B300E30A8B /* AFURLResponseSerialization.m */; };
+		EF0C20771E09E6B300E30A8B /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EF0C20711E09E6B300E30A8B /* AFURLSessionManager.m */; };
+		EF0C207A1E09EFF000E30A8B /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF0C20791E09EFF000E30A8B /* SwiftyJSON.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +54,21 @@
 		EF0C20521E09E63700E30A8B /* Photo Search ExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Photo Search ExampleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF0C20561E09E63700E30A8B /* Photo_Search_ExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo_Search_ExampleUITests.swift; sourceTree = "<group>"; };
 		EF0C20581E09E63700E30A8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF0C20651E09E6B300E30A8B /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		EF0C20661E09E6B300E30A8B /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		EF0C20671E09E6B300E30A8B /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		EF0C20681E09E6B300E30A8B /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		EF0C20691E09E6B300E30A8B /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		EF0C206A1E09E6B300E30A8B /* AFSecurityPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFSecurityPolicy.h; sourceTree = "<group>"; };
+		EF0C206B1E09E6B300E30A8B /* AFSecurityPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFSecurityPolicy.m; sourceTree = "<group>"; };
+		EF0C206C1E09E6B300E30A8B /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		EF0C206D1E09E6B300E30A8B /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		EF0C206E1E09E6B300E30A8B /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		EF0C206F1E09E6B300E30A8B /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		EF0C20701E09E6B300E30A8B /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
+		EF0C20711E09E6B300E30A8B /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
+		EF0C20781E09E78000E30A8B /* bridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bridge.h; sourceTree = "<group>"; };
+		EF0C20791E09EFF000E30A8B /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = ../AFNetworking/SwiftyJSON.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,10 +99,12 @@
 		EF0C202A1E09E63700E30A8B = {
 			isa = PBXGroup;
 			children = (
+				EF0C20781E09E78000E30A8B /* bridge.h */,
 				EF0C20351E09E63700E30A8B /* Photo Search Example */,
 				EF0C204A1E09E63700E30A8B /* Photo Search ExampleTests */,
 				EF0C20551E09E63700E30A8B /* Photo Search ExampleUITests */,
 				EF0C20341E09E63700E30A8B /* Products */,
+				EF0C20641E09E6B300E30A8B /* AFNetworking */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,6 +121,7 @@
 		EF0C20351E09E63700E30A8B /* Photo Search Example */ = {
 			isa = PBXGroup;
 			children = (
+				EF0C20791E09EFF000E30A8B /* SwiftyJSON.swift */,
 				EF0C20361E09E63700E30A8B /* AppDelegate.swift */,
 				EF0C20381E09E63700E30A8B /* ViewController.swift */,
 				EF0C203A1E09E63700E30A8B /* Main.storyboard */,
@@ -123,6 +148,26 @@
 				EF0C20581E09E63700E30A8B /* Info.plist */,
 			);
 			path = "Photo Search ExampleUITests";
+			sourceTree = "<group>";
+		};
+		EF0C20641E09E6B300E30A8B /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				EF0C20651E09E6B300E30A8B /* AFHTTPSessionManager.h */,
+				EF0C20661E09E6B300E30A8B /* AFHTTPSessionManager.m */,
+				EF0C20671E09E6B300E30A8B /* AFNetworking.h */,
+				EF0C20681E09E6B300E30A8B /* AFNetworkReachabilityManager.h */,
+				EF0C20691E09E6B300E30A8B /* AFNetworkReachabilityManager.m */,
+				EF0C206A1E09E6B300E30A8B /* AFSecurityPolicy.h */,
+				EF0C206B1E09E6B300E30A8B /* AFSecurityPolicy.m */,
+				EF0C206C1E09E6B300E30A8B /* AFURLRequestSerialization.h */,
+				EF0C206D1E09E6B300E30A8B /* AFURLRequestSerialization.m */,
+				EF0C206E1E09E6B300E30A8B /* AFURLResponseSerialization.h */,
+				EF0C206F1E09E6B300E30A8B /* AFURLResponseSerialization.m */,
+				EF0C20701E09E6B300E30A8B /* AFURLSessionManager.h */,
+				EF0C20711E09E6B300E30A8B /* AFURLSessionManager.m */,
+			);
+			path = AFNetworking;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,7 +304,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF0C20721E09E6B300E30A8B /* AFHTTPSessionManager.m in Sources */,
+				EF0C20771E09E6B300E30A8B /* AFURLSessionManager.m in Sources */,
+				EF0C20741E09E6B300E30A8B /* AFSecurityPolicy.m in Sources */,
 				EF0C20391E09E63700E30A8B /* ViewController.swift in Sources */,
+				EF0C20751E09E6B300E30A8B /* AFURLRequestSerialization.m in Sources */,
+				EF0C20731E09E6B300E30A8B /* AFNetworkReachabilityManager.m in Sources */,
+				EF0C207A1E09EFF000E30A8B /* SwiftyJSON.swift in Sources */,
+				EF0C20761E09E6B300E30A8B /* AFURLResponseSerialization.m in Sources */,
 				EF0C20371E09E63700E30A8B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -412,10 +464,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEFINES_MODULE = YES;
 				INFOPLIST_FILE = "Photo Search Example/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.LisaSteele.Photo-Search-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = bridge.h;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -424,10 +478,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEFINES_MODULE = YES;
 				INFOPLIST_FILE = "Photo Search Example/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.LisaSteele.Photo-Search-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = bridge.h;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;

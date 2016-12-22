@@ -29,15 +29,53 @@ class ViewController: UIViewController {
                     progress: nil,
                     success: { (operation: URLSessionDataTask, responseObject: Any?) in
                         if let responseObject = responseObject {
-                            print ("Reponse: " + (responseObject as AnyObject).description)
+                            print ("Reponse: " + (responseObject as AnyObject).description)*/
                             
                             let jsondata = JSON(responseObject)
                             
-                            if let flickrImageURL = jsondata["photos"]["photo"][0]["url_m"] as? AnyObject{
-                                print(flickrImageURL)
-                            }
                             
+                            if let flickrImages = jsondata["photos"]["photo"] as? AnyObject {
+                                
+                                
+                                var imageArray: [JSON] = [flickrImage as! JSON]
+                                
+                               
+                                
+                                
+                                for singleImage in flickrImages {
+                                    if let image = singleImage["url_m"] as? String {
+                                        print(url_m)
+                                    }
+                                }
+                                
+                                if let imageURL = flickrImages["url_m"] as? [String: Any] {
+                                    
+                                }
+                        
+                            print(imageArray)
+                            }
+                        
+                        /*
+                             if let photos = responseObject ["photos"] as? [String: AnyObject] {
+                                if let photoArray = photos ["photo"] as? [[String: AnyObject]] {
+                            
+                                    self.scrollView.contentSize = CGSize(width: 320, height: 320 * CGFloat(photoArray.count))
+                                
+                                    for (i, photoDictionary) in photoArray.enumerated() {
+                                        if let imageURLString = photoDictionary["url_m"] as? String {
+                                            let imageData = NSData(contentsOf: URL(string: imageURLString)!)
+                                            if let imageDataUnwrapped = imageData {
+                                                let imageView = UIImageView(image: UIImage(data: imageDataUnwrapped as Data))
+                                                imageView.frame = CGRect(x: 0, y: 320 * CGFloat(i), width: 320, height: 320)
+                                                self.scrollView.addSubview(imageView)
+                                            }
+                                        }
+                                    }
 
+                                }
+                       
+                            }
+                        */
                         }
         }) { (operation: URLSessionDataTask?, error: Error) in
             print ("Error: " + error.localizedDescription)
